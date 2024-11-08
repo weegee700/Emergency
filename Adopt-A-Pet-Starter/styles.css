@@ -1,0 +1,122 @@
+body {
+	background-color: darkgreen;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+	color: #2c3e50;
+	margin-bottom: 40px;
+	font-weight: bold;
+}
+
+.pets-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: 20px;
+	padding: 20px;
+}
+
+.pet-card {
+	background: white;
+	border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	transition: transform 0.2s;
+	overflow: hidden;
+}
+
+.pet-card:hover {
+	transform: translateY(-5px);
+}
+
+.pet-card img {
+	width: 100%;
+	height: 200px;
+	object-fit: contain;
+	background: black;
+	padding: 20px;
+}
+
+.pet-info {
+	padding: 20px;
+	text-color: goldenrod
+}
+
+.pet-info h2 {
+	color: #2c3e50;
+	font-size: 1.5rem;
+	margin-bottom: 15px;
+}
+
+.pet-details {
+	color: #666;
+	font-size: 0.9rem;
+}
+
+.price {
+	color: #27ae60;
+	font-weight: bold;
+	font-size: 1.1rem;
+	margin: 15px 0;
+}
+
+.house-trained {
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 15px;
+	font-size: 0.8rem;
+	margin: 10px 0;
+}
+
+.trained-yes {
+	background: #27ae60;
+	color: white;
+}
+
+.trained-no {
+	background: #e74c3c;
+	color: white;
+}
+
+.apply-btn {
+	display: inline-block;
+	background: #3498db;
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin-top: 15px;
+	transition: background 0.2s;
+}
+
+.apply-btn:hover {
+	background: #2980b9;
+	color: white;
+}
+img {
+	height: 200px; width: 200px
+}
+
+
+.text-primary {
+	color: navy !important; /* Deep blue */
+}
+
+.btn-primary {
+	background-color: #ffc107; /* Gold for the button */
+	border: none;
+}
+
+.card-body {
+	background-color: purple; /* Very light blue for card body */
+}
+
+.card-title {
+	color: #004085; /* Darker shade of blue for contrast */
+}
+.card-text {
+	color: darkgoldenrod; /* Dark gray for text */
+}
+.not-trained {
+	border: 2px solid #dc3545; /* Red border */
+	background-color: #f8d7da; /* Light red background */
